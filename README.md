@@ -1,7 +1,7 @@
 # Snake Game
 A simple snake game for my university project
 
-![Snake Game running](https://github.com/n0deee/snakee-window-game/blob/main/image/demo.jpg "The snake game")
+![Snake Game running](https://github.com/n0deee/snakee-window-game/blob/main/image/demo.png "The snake game")
 
 # How to play
 Choose a name (to be saved if you get the higher score)
