@@ -67,7 +67,7 @@ public class GameLogic implements Logic<GameState> {
         snake.bodyStep(newHeadPosition);
 
         boolean collidedWithBody = this.isColliding(
-                snake.getEntireBody().subList(1, snake.getEntireBody().size() - 1), snake.getHeadPos());
+                snake.getEntireBody().subList(1, snake.getEntireBody().size()), snake.getHeadPos());
 
         // Detects collision with fruits
         if (this.isColliding(snake.getHeadPos(), fruit.getPos())) {
